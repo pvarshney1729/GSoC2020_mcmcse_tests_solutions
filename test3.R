@@ -44,10 +44,10 @@ RBM <- function(k, B, m, X_bar){
 }
 
 #Initialise variables
-k <- 4
-t <- 1e5
-m = floor(sqrt(n))
-B = m
+k = 4
+t = 1e5
+m = 1e3
+B = 1e2
 x_0 = 0
 phi = 0.9
 mu = 0
